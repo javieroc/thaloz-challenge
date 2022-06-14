@@ -2,7 +2,7 @@ const { getSquaresSorted } = require('./challenge')
 
 describe('sorted squared array', () => {
   test('test case 1', () => {
-    const testCase1 = { array: [1, 2, 3, 5, 6, 8, 9] }
+    const testCase1 = { array: ['1', 2, 3, 5, 6, 8, 9, 'Javier Ocampo'] }
 
     const expected = [1, 4, 9, 25, 36, 64, 81]
     expect(getSquaresSorted(testCase1.array)).toEqual(expected)
